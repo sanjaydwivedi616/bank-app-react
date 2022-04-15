@@ -1,0 +1,171 @@
+{
+  "userList": [
+    {
+      "id": "jon",
+      "Password": "jon",
+      "userInfo": {
+        "accountHolderName": "jon",
+        "accountNumber": 1111,
+        "accountType": "Saving",
+        "ifscCode": "HDFC000011",
+        "accountBalance": 1003
+      }
+    },
+    {
+      "id": "harry",
+      "Password": "harry",
+      "userInfo": {
+        "accountHolderName": "harry",
+        "accountNumber": 2222,
+        "accountType": "Saving",
+        "ifscCode": "HDFC000011",
+        "accountBalance": 1997
+      }
+    },
+    {
+      "id": "jack",
+      "Password": "jack",
+      "userInfo": {
+        "accountHolderName": "jack",
+        "accountNumber": 3333,
+        "accountType": "Saving",
+        "ifscCode": "HDFC000011",
+        "accountBalance": 4900
+      }
+    }
+  ],
+  "TransactionSummary": [
+    {
+      "loginUserBeneficiary": "jon",
+      "amountCreditFrom": "harry",
+      "amountTransfer": "100",
+      "comment": "",
+      "DateTime": "2021-01-27T10:29:47.828Z",
+      "transactionType": "D",
+      "id": 1
+    },
+    {
+      "loginUserBeneficiary": "harry",
+      "amountCreditFrom": "jon",
+      "amountTransfer": "100",
+      "comment": "",
+      "DateTime": "2021-01-27T10:29:47.828Z",
+      "transactionType": "C",
+      "id": 2
+    },
+    {
+      "loginUserBeneficiary": "harry",
+      "amountCreditFrom": "jon",
+      "amountTransfer": "200",
+      "comment": "",
+      "DateTime": "2021-01-27T10:30:40.763Z",
+      "transactionType": "D",
+      "id": 3
+    },
+    {
+      "loginUserBeneficiary": "jon",
+      "amountCreditFrom": "harry",
+      "amountTransfer": "200",
+      "comment": "",
+      "DateTime": "2021-01-27T10:30:40.763Z",
+      "transactionType": "C",
+      "id": 4
+    },
+    {
+      "loginUserBeneficiary": "harry",
+      "amountCreditFrom": "jon",
+      "amountTransfer": "3",
+      "comment": "",
+      "DateTime": "2021-01-27T10:40:43.871Z",
+      "transactionType": "D",
+      "id": 5
+    },
+    {
+      "loginUserBeneficiary": "jon",
+      "amountCreditFrom": "harry",
+      "amountTransfer": "3",
+      "comment": "",
+      "DateTime": "2021-01-27T10:40:43.871Z",
+      "transactionType": "C",
+      "id": 6
+    },
+    {
+      "loginUserBeneficiary": "jon",
+      "amountCreditFrom": "jack",
+      "amountTransfer": "90",
+      "comment": "ninety only ",
+      "DateTime": "2021-01-27T10:53:52.261Z",
+      "transactionType": "D",
+      "id": 7
+    },
+    {
+      "loginUserBeneficiary": "jack",
+      "amountCreditFrom": "jon",
+      "amountTransfer": "90",
+      "comment": "ninety only ",
+      "DateTime": "2021-01-27T10:53:52.261Z",
+      "transactionType": "C",
+      "id": 8
+    },
+    {
+      "loginUserBeneficiary": "jack",
+      "amountCreditFrom": "jon",
+      "amountTransfer": "90",
+      "comment": "",
+      "DateTime": "2021-01-27T14:35:05.065Z",
+      "transactionType": "D",
+      "id": 9
+    },
+    {
+      "loginUserBeneficiary": "jon",
+      "amountCreditFrom": "jack",
+      "amountTransfer": "90",
+      "comment": "",
+      "DateTime": "2021-01-27T14:35:05.065Z",
+      "transactionType": "C",
+      "id": 10
+    }
+  ],
+  "beneficiaryList": [
+    {
+      "loginUserBeneficiary": "jon",
+      "beneficiaryAccountNumber": "2222",
+      "beneficiaryAccountHolderName": "harry",
+      "beneficiaryAccountType": "Saving",
+      "beneficiaryAccountIFSC": "HDFC000011",
+      "id": 1
+    },
+    {
+      "loginUserBeneficiary": "harry",
+      "beneficiaryAccountNumber": "1111",
+      "beneficiaryAccountHolderName": "jon",
+      "beneficiaryAccountType": "Saving",
+      "beneficiaryAccountIFSC": "HDFC000012",
+      "id": 2
+    },
+    {
+      "loginUserBeneficiary": "jon",
+      "beneficiaryAccountNumber": "3333",
+      "beneficiaryAccountHolderName": "jack",
+      "beneficiaryAccountType": "Saving",
+      "beneficiaryAccountIFSC": "HDFC000011",
+      "id": 3
+    },
+    {
+      "loginUserBeneficiary": "jon",
+      "beneficiaryAccountNumber": "98877",
+      "beneficiaryAccountHolderName": "test",
+      "beneficiaryAccountType": "Saving",
+      "beneficiaryAccountIFSC": "HDFC000011",
+      "id": 4
+    },
+    {
+      "loginUserBeneficiary": "jack",
+      "beneficiaryAccountNumber": "111",
+      "beneficiaryAccountHolderName": "jon",
+      "beneficiaryAccountType": "Saving",
+      "beneficiaryAccountIFSC": "HDFC000012",
+      "id": 5
+    }
+  ]
+}
